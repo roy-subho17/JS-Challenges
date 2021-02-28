@@ -1,0 +1,64 @@
+h1{
+    font-style: italic;
+    text-align: center;
+}
+
+.container{
+    border: 3px solid black;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.d-flex, .d-flex-1, .d-flex-2, .d-flex-3, 
+.d-flex-row-3, .d-flex-row-1, .d-flex-row-2{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.d-flex-row-1, .d-flex-row-2{
+    background: url('https://t4.ftcdn.net/jpg/00/63/41/73/240_F_63417397_3DEsQxIyTr1GG5IBDaW2r9nLRYyO3YCx.jpg') center;
+    color: azure;
+}
+
+.d-flex-row-1 div{
+    height: 350px;
+    padding: 10px;
+    flex: 1;
+}
+
+.d-flex-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.d-flex-row-2 button{
+    border: 1px solid black;
+}
+
+table,th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.d-flex div{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.d-flex-1 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px goldenrod; /*box-shadow: horizontal-offset vertical-offset blur spread color*/
+}
+
+.d-flex-2 img:hover{
+    box-shadow: 0px 10px 50px blue;
+}
